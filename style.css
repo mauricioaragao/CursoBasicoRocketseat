@@ -175,7 +175,7 @@ footer {
 }
 
 /* animation switch button */
-@keyframes slide-ida {
+@keyframes slide-go {
   from {
     left: 0;
   }
@@ -184,7 +184,7 @@ footer {
   }
 }
 
-@keyframes slide-volta {
+@keyframes slide-back {
   from {
     left: 50%;
   }
