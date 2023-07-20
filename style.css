@@ -85,11 +85,11 @@ body * {
     left: 0;
     transform: translateY(-50%);
     z-index: 1;
-    animation: slide-volta .2s;
+    animation: slide-back .2s;
   }
 
   .light #switch button {
-    animation: slide-ida .2s forwards;
+    animation: slide-go .2s forwards;
   }
 
   #switch button:hover {
@@ -175,7 +175,7 @@ footer {
 }
 
 /* animation switch button */
-@keyframes slide-ida {
+@keyframes slide-go {
   from {
     left: 0;
   }
@@ -184,7 +184,7 @@ footer {
   }
 }
 
-@keyframes slide-volta {
+@keyframes slide-back {
   from {
     left: 50%;
   }
